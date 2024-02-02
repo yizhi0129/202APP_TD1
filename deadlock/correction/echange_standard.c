@@ -1,8 +1,8 @@
 #include <stdio.h>                                                            
 #include <stdlib.h>                                                             
-#include <mpi.h>
+#include </usr/local/mpich-3.4.1/include/mpi.h>
 
-void echange_synchrone(int rang, char *buf_send, char *buf_recv, int n) {
+void echange_standard(int rang, char *buf_send, char *buf_recv, int n) {
     MPI_Status sta;
     int vois = (rang+1) % 2;
 
@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
     buf_recv = calloc(n, sizeof(char));
 
     printf("Debut echange %d octets\n", n);
-    echange_synchrone(rang, buf_send, buf_recv, n);
+    echange_standard(rang, buf_send, buf_recv, n);
     printf("Fin echange.\n");
 
     free(buf_send);

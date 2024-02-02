@@ -1,6 +1,6 @@
 #include <stdio.h>                                                            
 #include <stdlib.h>                                                             
-#include <mpi.h>
+#include </usr/local/mpich-3.4.1/include/mpi.h>
 
 void echange_bufferise(int rang, char *buf_send, char *buf_recv, int n) {
     MPI_Status sta;

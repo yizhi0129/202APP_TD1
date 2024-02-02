@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <math.h>
+#include </usr/local/mpich-3.4.1/include/mpi.h>
 
 #define MASTER_RANK 0
 
@@ -30,24 +31,7 @@ void run_slave(int slave_rank)
 
     do
     {
-        /* TRAVAIL A FAIRE  */
-        /* Attendre un message pour savoir 
-              s'il faut traiter le tableau de reels (c-a-d appeler process_data)
-              ou bien si le travail de l'esclave est terminé
-           */
-
-        /*
-           Si il faut traiter un tableau de reels
-              Allouer le tableau de reels data a nreals reels double precision
-              Recevoir le tableau de reels data
-              Appeler process_data(slave_rank, cptr_from_master, data, nreal)
-
-            Sinon 
-              Le traitement est termine
-              over = 1;
-              printf("Slave %d : END\n", slave_rank);
-           */
-        /* FIN TRAVAIL A FAIRE  */
+        
     }
     while(!over);
 

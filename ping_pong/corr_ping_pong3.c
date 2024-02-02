@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <mpi.h>
+#include </usr/local/mpich-3.4.1/include/mpi.h>
 
 int main(int argc, char **argv)
 {

@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <math.h>
-#include <mpi.h>
+#include </usr/local/mpich-3.4.1/include/mpi.h>
 
 #define MASTER_RANK 0
 #define TAG_READY   1000
