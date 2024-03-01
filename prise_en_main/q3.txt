@@ -1,0 +1,8 @@
+Avant MPI_Init
+Avant MPI_Init
+Avant MPI_Init
+Avant MPI_Init
+1, 4, yangyizhideair.home, pid=17558 addr(ma_var)=0x7ff7bb533370
+0, 4, yangyizhideair.home, pid=17557 addr(ma_var)=0x7ff7ba168370
+2, 4, yangyizhideair.home, pid=17559 addr(ma_var)=0x7ff7b0ed4370
+3, 4, yangyizhideair.home, pid=17560 addr(ma_var)=0x7ff7bd571370
